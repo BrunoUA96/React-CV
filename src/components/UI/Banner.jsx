@@ -10,10 +10,16 @@ function Banner() {
                         <em> Ostap</em>
                     </strong>
                     <br/>
-                    a frontend developer
+                    a front-end developer
                 </h1>
                 <div className="header__text">
-                    <p>with passion for learning and creating.</p>
+                    <p>Passionate developer offering 5+ years of experience, strong sense of web design and commitment
+                        to the user
+                        experience, including the accessibility.
+                        Working on wide range of project types, from landing pages to large platforms.
+                        Fast adaptation to new Technologies, Frameworks and Program Languages.
+                        Comfortable with working with code written by others, and development from scratch.
+                        Excellent communication skills and great collaborator</p>
                 </div>
                 <a href="#!" className="btn">Download CV</a>
             </div>
