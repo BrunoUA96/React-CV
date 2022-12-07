@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## My JSON server
+
+Localy have db.json
+
+To get using: my-json-server.typicode.com [Here](https://my-json-server.typicode.com/BrunoUA96/React-CV/projects/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
