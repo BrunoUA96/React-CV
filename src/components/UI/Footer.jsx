@@ -1,6 +1,4 @@
 import React from 'react';
-import gitHub from './../../img/icons/gitHub.svg'
-import linkedIn from './../../img/icons/linkedIn.svg'
 
 function Footer() {
     return (
@@ -10,12 +8,12 @@ function Footer() {
                     <ul className="social">
                         <li className="social__item">
                             <a target="_blank" rel="noreferrer"  href="https://github.com/BrunoUA96">
-                                <img src={gitHub} alt="Link"/>
+                                <img src={`${process.env.PUBLIC_URL}/img/icons/gitHub.svg`} alt="Link"/>
                             </a>
                         </li>
                         <li className="social__item">
                             <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/ostap-klysa-425237108/">
-                                <img src={linkedIn} alt="Link"/>
+                                <img src={`${process.env.PUBLIC_URL}/img/icons/linkedIn.svg`} alt="Link"/>
                             </a></li>
                     </ul>
                     <div className="copyright">

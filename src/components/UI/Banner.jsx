@@ -2,7 +2,7 @@ import React from 'react';
 
 function Banner() {
     return (
-        <header className="header">
+        <header className="header" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/img/header-bg.png'})`}}>
             <div className="header__wrapper">
                 <h1 className="header__title">
                     <strong>

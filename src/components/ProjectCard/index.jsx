@@ -5,7 +5,7 @@ function Index({id, name, img}) {
     return (
         <li className="project">
             <Link to={`/project/${id}`}>
-                <img src={img} alt="Project img" className="project__img"/>
+                <img src={`${process.env.PUBLIC_URL}/img/projects/borzoidesign.png`} alt="Project img" className="project__img"/>
                 <h3 className="project__title">
                     {name}
                 </h3>

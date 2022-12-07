@@ -1,6 +1,4 @@
 import React from 'react';
-import sun from "../../img/icons/sun.svg";
-import moon from "../../img/icons/moon.svg";
 import {Link, NavLink} from "react-router-dom";
 
 function NavBar() {
@@ -11,8 +9,8 @@ function NavBar() {
                     <Link to="/" className="logo"><strong>Portfo</strong>lio</Link>
 
                     <button className="dark-mode-btn">
-                        <img src={sun} alt="Light mode" className="dark-mode-btn__icon"/>
-                        <img src={moon} alt="Dark mode" className="dark-mode-btn__icon"/>
+                        <img src={`${process.env.PUBLIC_URL}/img/icons/sun.svg`} alt="Light mode" className="dark-mode-btn__icon"/>
+                        <img src={`${process.env.PUBLIC_URL}/img/icons/moon.svg`} alt="Dark mode" className="dark-mode-btn__icon"/>
                     </button>
 
                     <ul className="nav-list">
