@@ -5,7 +5,7 @@
       "name": "Aircoach",
       "desc": "Sports & Health platform for US market",
       "url": "https://aircoach.site/",
-      "img": "/static/media/aircoach.926a59177d229868fd72.png",
+      "img": "aircoach.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -26,7 +26,7 @@
       "name": "Borzoidesign",
       "desc": "Exclusive design objects and art gallery",
       "url": "https://Borzoidesign.com/",
-      "img": "/static/media/borzoidesign.b427db17700fecf4ab7b.png",
+      "img": "borzoidesign.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -47,7 +47,7 @@
       "name": "Out-emotion",
       "desc": "Landing page for Electric bikes rental",
       "url": "https://Out-emotion.pt/",
-      "img": "/static/media/out-emotion.c0239c06bfb8e8aba8e0.png",
+      "img": "out-emotion.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -68,7 +68,7 @@
       "name": "Driveyou",
       "desc": "Transfers and Private Tours",
       "url": "https://Driveyou.pt/",
-      "img": "/static/media/driveyou.4cad647f26b773d6b18f.png",
+      "img": "driveyou.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -89,7 +89,7 @@
       "name": "Labrador",
       "desc": "Online shop",
       "url": "https://Labrador.pt/",
-      "img": "/static/media/labrador.70f97e5a849974b0365d.png",
+      "img": "labrador.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -110,7 +110,7 @@
       "name": "Edulog",
       "desc": "Online shop",
       "url": "https://Edulog.pt/",
-      "img": "/static/media/edulog.1c2d3bdf16dba2b400ac.png",
+      "img": "edulog.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -131,7 +131,7 @@
       "name": "Hiseedtech",
       "desc": "Online shop",
       "url": "https://hiseedtech.com/",
-      "img": "/static/media/hiseedtech.c960551ff1ef40adbe84.png",
+      "img": "hiseedtech.png",
       "technologies": [
         {
           "name": "OctoberCMS"
@@ -152,7 +152,7 @@
       "name": "Almbeer",
       "desc": "Online shop",
       "url": "https://almbeer.com/",
-      "img": "/static/media/almbeer.8c0f3453abbb53f616d9.png",
+      "img": "almbeer.png",
       "technologies": [
         {
           "name": "OctoberCMS"
