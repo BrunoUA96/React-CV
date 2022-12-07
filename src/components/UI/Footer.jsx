@@ -9,12 +9,12 @@ function Footer() {
                 <div className="footer__wrapper">
                     <ul className="social">
                         <li className="social__item">
-                            <a target="_blank" href="https://github.com/BrunoUA96">
+                            <a target="_blank" rel="noreferrer"  href="https://github.com/BrunoUA96">
                                 <img src={gitHub} alt="Link"/>
                             </a>
                         </li>
                         <li className="social__item">
-                            <a target="_blank" href="https://www.linkedin.com/in/ostap-klysa-425237108/">
+                            <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/ostap-klysa-425237108/">
                                 <img src={linkedIn} alt="Link"/>
                             </a></li>
                     </ul>
