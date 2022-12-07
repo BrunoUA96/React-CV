@@ -12,7 +12,7 @@ function Project() {
     const [project, setProject] = useState({});
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/projects/${id}`).then(res => {
+        axios.get(`https://my-json-server.typicode.com/BrunoUA96/React-CV/projects/${id}`).then(res => {
             setProject(res.data);
             console.log(res.data.technologies)
         });

@@ -9,7 +9,7 @@ function Projects() {
 
     useEffect(() => {
         // setIsLoading(true);
-        axios.get('http://localhost:3000/projects').then(res => {
+        axios.get('https://my-json-server.typicode.com/BrunoUA96/React-CV/projects').then(res => {
             setProjectList(res.data);
             // setIsLoading(false);
         });
