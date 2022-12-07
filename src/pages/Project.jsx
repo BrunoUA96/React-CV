@@ -7,39 +7,43 @@ function Project() {
     // Get Project id
     const {id} = useParams();
 
-    const [isLoading, setIsLoading] = useState(true);
+    // const [isLoading, setIsLoading] = useState(true);
 
     const [project, setProject] = useState({});
 
     useEffect(() => {
-        axios.get('https://brunoua96.github.io/Data/projects.json').then(res => {
-            setProject(res.data.projects[id]);
-            console.log(project)
-        }).then(() => setIsLoading(false));
-    }, [isLoading]);
+        axios.get(`http://localhost:3000/projects/${id}`).then(res => {
+            setProject(res.data);
+            console.log(res.data.technologies)
+        });
+    }, []);
 
     return (
-        <>
-            {!isLoading && <main className="section">
-                <div className="container">
-                    <div className="project-details">
-                        <h1 className="title-1">{project.name}</h1>
-                        <img src="./img/projects/02-big.jpg" alt="" className="project-details__cover"/>
+        <main className="section">
+            <div className="container">
+                <div className="project-details">
+                    <h1 className="title-1">{project.name}</h1>
+                    <h3 className="title-3">{project.desc}</h3>
+                    <img src={project.img} alt="" className="project-details__cover"/>
 
-                        <div className="project-details__desc">
-                            <p>Skills: {project.technologies.map((item, i) => (
-                                <span key={i}>{item} </span>
-                            ))}</p>
-                        </div>
-
-                        <Link href="#!" className="btn-outline">
-                            <img src="./img/icons/gitHub-black.svg" alt=""/>
-                            GitHub repo
-                        </Link>
+                    <div className="project-details__desc">
+                        <p>Skills:
+                            {
+                                project.technologies &&
+                                project.technologies.map((item, i) => (
+                                    <span key={i}>{item.name} </span>
+                                ))
+                            }
+                        </p>
                     </div>
+
+                    <Link href="#!" className="btn-outline">
+                        <img src="./img/icons/gitHub-black.svg" alt=""/>
+                        GitHub repo
+                    </Link>
                 </div>
-            </main>}
-        </>
+            </div>
+        </main>
     );
 }
 

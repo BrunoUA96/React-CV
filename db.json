@@ -1,0 +1,172 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "Aircoach",
+      "desc": "Sports & Health platform for US market",
+      "url": "https://aircoach.site/",
+      "img": "/static/media/aircoach.926a59177d229868fd72.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Borzoidesign",
+      "desc": "Exclusive design objects and art gallery",
+      "url": "https://Borzoidesign.com/",
+      "img": "/static/media/borzoidesign.b427db17700fecf4ab7b.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Out-emotion",
+      "desc": "Landing page for Electric bikes rental",
+      "url": "https://Out-emotion.pt/",
+      "img": "/static/media/out-emotion.c0239c06bfb8e8aba8e0.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Driveyou",
+      "desc": "Transfers and Private Tours",
+      "url": "https://Driveyou.pt/",
+      "img": "/static/media/driveyou.4cad647f26b773d6b18f.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Labrador",
+      "desc": "Online shop",
+      "url": "https://Labrador.pt/",
+      "img": "/static/media/labrador.70f97e5a849974b0365d.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Edulog",
+      "desc": "Online shop",
+      "url": "https://Edulog.pt/",
+      "img": "/static/media/edulog.1c2d3bdf16dba2b400ac.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hiseedtech",
+      "desc": "Online shop",
+      "url": "https://hiseedtech.com/",
+      "img": "/static/media/hiseedtech.c960551ff1ef40adbe84.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Almbeer",
+      "desc": "Online shop",
+      "url": "https://almbeer.com/",
+      "img": "/static/media/almbeer.8c0f3453abbb53f616d9.png",
+      "technologies": [
+        {
+          "name": "OctoberCMS"
+        },
+        {
+          "name": "Html"
+        },
+        {
+          "name": "Sass"
+        },
+        {
+          "name": "Bootstrap"
+        }
+      ]
+    }
+  ]
+}

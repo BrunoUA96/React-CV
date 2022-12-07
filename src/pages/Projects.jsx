@@ -4,13 +4,14 @@ import {useEffect, useState} from "react";
 import Skeleton from "../components/ProjectCard/Skeleton";
 
 function Projects() {
-    const [isLoading, setIsLoading] = useState(true);
-    const [projectList, setProjectList] = useState(isLoading ? [...new Array(6)] : []);
+    // const [isLoading, setIsLoading] = useState(true);
+    const [projectList, setProjectList] = useState( []);
 
     useEffect(() => {
-        axios.get('https://brunoua96.github.io/Data/projects.json').then(res => {
-            setProjectList(res.data.projects);
-            setIsLoading(false)
+        // setIsLoading(true);
+        axios.get('http://localhost:3000/projects').then(res => {
+            setProjectList(res.data);
+            // setIsLoading(false);
         });
     }, []);
 
@@ -20,9 +21,7 @@ function Projects() {
                 <h2 className="title-1">Projects</h2>
                 <ul className="projects">
                     {projectList.map((project, index) => (
-                        isLoading ?
-                            <Skeleton key={index}/>
-                            : <ProjectCard {...project} key={index}/>
+                        <ProjectCard {...project} key={index}/>
                     ))}
                 </ul>
             </div>
