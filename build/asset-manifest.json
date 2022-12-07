@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6c7737c.css",
-    "main.js": "/static/js/main.9f63d0cb.js",
-    "static/js/787.5a5683a8.chunk.js": "/static/js/787.5a5683a8.chunk.js",
-    "static/media/header-bg.png": "/static/media/header-bg.5bf82a058f892ab7f237.png",
-    "static/media/sun.svg": "/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
-    "static/media/moon.svg": "/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
-    "static/media/gitHub.svg": "/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
-    "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
-    "index.html": "/index.html",
-    "main.b6c7737c.css.map": "/static/css/main.b6c7737c.css.map",
-    "main.9f63d0cb.js.map": "/static/js/main.9f63d0cb.js.map",
-    "787.5a5683a8.chunk.js.map": "/static/js/787.5a5683a8.chunk.js.map"
+    "main.css": "/React-CV/static/css/main.98b4ae13.css",
+    "main.js": "/React-CV/static/js/main.7973ae42.js",
+    "static/js/787.5a5683a8.chunk.js": "/React-CV/static/js/787.5a5683a8.chunk.js",
+    "static/media/header-bg.png": "/React-CV/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/sun.svg": "/React-CV/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/React-CV/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/React-CV/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/linkedIn.svg": "/React-CV/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "index.html": "/React-CV/index.html",
+    "main.98b4ae13.css.map": "/React-CV/static/css/main.98b4ae13.css.map",
+    "main.7973ae42.js.map": "/React-CV/static/js/main.7973ae42.js.map",
+    "787.5a5683a8.chunk.js.map": "/React-CV/static/js/787.5a5683a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6c7737c.css",
-    "static/js/main.9f63d0cb.js"
+    "static/css/main.98b4ae13.css",
+    "static/js/main.7973ae42.js"
   ]
 }
